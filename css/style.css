@@ -72,8 +72,8 @@ header {
     background-color: white;
     border: 1px solid rgb(190, 184, 184);
     position: sticky;
-    top:0;
-z-index: 1000;
+    top: 0;
+    z-index: 1000;
 }
 
 header .container {
@@ -111,11 +111,11 @@ header .container nav ul {
 }
 
 .nav-tog:hover {
-   color:var(--main-color)
+    color: var(--main-color)
 }
 
 .mobile-nav1 {
-     display: flex !important;
+    display: flex !important;
     flex-direction: column;
     position: absolute;
     top: 100%;
@@ -124,6 +124,7 @@ header .container nav ul {
     width: 100%;
     transition: 0.3s;
 }
+
 @media (min-width :768px) {
     .nav-tog {
         display: none;
@@ -532,51 +533,58 @@ header .container .social i {
 .stati {
     padding: 70px 0;
     background-color: black;
-    background-image: url(/images/photo_2025-05-12_13-12-40.jpg);
+    background-image: url(images/photo_2025-05-12_13-12-40.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
 
 }
+
 .stati .overlay {
-position: absolute;
-top :0;
-left : 0;
-width:100%;
-height: 100%;
-background-color: rgba(0, 0, 0, 0.31);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.31);
 }
+
 .stati .container {
-    display:grid ;
-    grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
+
 .stati .container .stat {
-     background-color: rgba(255, 255, 255, 0.573);
+    background-color: rgba(255, 255, 255, 0.573);
     text-align: center;
-    padding :20px 0;
-    border-radius: 5px ;
+    padding: 20px 0;
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.3;
     height: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    z-index:1 ;
+    z-index: 1;
 }
+
 .stati .container .stat:hover {
     scale: 1.05;
-     background-color: white;
+    background-color: white;
 }
+
 .stati .container .stat h3 {
     font-size: 35px;
     margin-bottom: 10px;
 }
-.stati .container .stat p{
+
+.stati .container .stat p {
     font-size: 20px;
     font-weight: 800;
 }
+
 /* end stati  */
 /** start courses style */
 
@@ -594,10 +602,12 @@ background-color: rgba(0, 0, 0, 0.31);
 
 
 }
+
 .courses .all-courses .course img {
     width: 100%;
     height: 200px;
 }
+
 .courses .all-courses .course {
     background-color: white;
     padding-bottom: 20px;
@@ -678,7 +688,7 @@ hr {
     left: 5px;
     top: 7px;
     box-shadow: 0 0 5px #ccc;
-    background-color: var(--mian-color);
+    background-color: var(--main-color);
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
@@ -703,6 +713,7 @@ hr {
 .reviews i {
     color: rgb(214, 89, 172);
 }
+
 /** end courses style */
 
 /** start portfolio style */
@@ -750,7 +761,7 @@ hr {
 
 .portfolio .box .info h3 {
     font-size: 25px;
-    color: var(--main-color);
+    color: rgb(19, 19, 85);
     margin-bottom: 10px;
 }
 
@@ -769,6 +780,7 @@ hr {
     background-color: var(--main-color);
     transform: scale(1.02);
 }
+
 /** end portfolio style */
 /** start team style */
 .our-team {
@@ -829,11 +841,11 @@ hr {
 .img-social img {
     width: 80%;
     border-radius: 0 0 10px;
-     filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 .team-box:hover img {
-      filter: grayscale(70%);
+    filter: grayscale(70%);
 }
 
 .team-info {
@@ -847,6 +859,7 @@ hr {
     color: var(--main-color);
     margin-bottom: 10px;
 }
+
 /** end team style */
 
 /** start skills style */
@@ -898,7 +911,7 @@ hr {
 }
 
 .count :last-child {
-background-color: #eccadf;
+    background-color: #eccadf;
     border: 1px solid #c61582;
     padding: 2px 3px;
     border-radius: 3px;
@@ -924,6 +937,7 @@ background-color: #eccadf;
 .progress .prog span:hover {
     width: 100% !important;
 }
+
 /** end skills style */
 /** start pricing style */
 
@@ -949,12 +963,14 @@ background-color: #eccadf;
     cursor: pointer;
     border-radius: 5px;
 }
+
 .plan .plan-title {
     font-size: 23px;
     color: var(--main-color);
     margin-bottom: 10px;
 
 }
+
 .plan:hover {
     scale: 1.04;
 }
@@ -1036,6 +1052,7 @@ background-color: #eccadf;
 .plan-btn:hover {
     scale: 1.05;
 }
+
 /** end pricing style */
 /** start testimonials style */
 
@@ -1127,6 +1144,7 @@ background-color: #eccadf;
     line-height: 1.6;
     margin-top: 15px;
 }
+
 /** end testimonials style */
 /** start footer style */
 
@@ -1238,6 +1256,7 @@ footer .container .section a:hover {
     text-align: center;
     color: white;
 }
+
 /** end footer style */
 .btn-whatsapp {
     position: fixed;
